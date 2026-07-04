@@ -1,7 +1,7 @@
 # Slack MCP Server
 
 [![CI](https://github.com/kamolc4/slack-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/kamolc4/slack-mcp-server/actions/workflows/ci.yml)
-[![Verified by MCPForge](https://www.mcpforge.tech/api/servers/slack-mcp/badge)](https://www.mcpforge.tech/verified/slack-mcp)
+[![Verified by MCPForge](https://www.mcpforge.tech/api/servers/slack-mcp-server/badge)](https://www.mcpforge.tech/verified/slack-mcp-server)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A production-ready Model Context Protocol server for the Slack API.
@@ -69,6 +69,27 @@ Claude Desktop / Cursor / Windsurf
 
 See the larger diagram in [docs/architecture.md](docs/architecture.md).
 
+## Source Code
+
+The complete production-ready Slack MCP Server template is available on GitHub.
+
+Repository:
+
+https://github.com/kamolc4/slack-mcp-server
+
+The repository includes:
+
+- Complete TypeScript source code
+- Slack OAuth implementation
+- MCP tools
+- GitHub Actions CI
+- Jest test suite
+- MIT License
+- Claude Desktop & Cursor configuration
+- Production deployment examples
+
+Fork the repository or download it as a ZIP to start building immediately.
+
 ## Available MCP tools
 
 | Tool | Purpose |
@@ -86,6 +107,12 @@ See the larger diagram in [docs/architecture.md](docs/architecture.md).
 ### 1. Install dependencies
 
 ```bash
+# Clone repository
+git clone https://github.com/kamolc4/slack-mcp-server.git
+
+cd slack-mcp-server
+
+# Install dependencies
 npm ci
 ```
 
@@ -241,11 +268,9 @@ Recommended production changes:
 
 ## Security Review
 
-You can verify this MCP server with MCPForge:
+Verify this server with MCPForge:
 
-```text
 https://www.mcpforge.tech/verify
-```
 
 MCPForge can help review:
 
@@ -259,14 +284,12 @@ MCPForge can help review:
 After verification, you can link your public report from this README:
 
 ```md
-[![Verified by MCPForge](https://www.mcpforge.tech/api/servers/slack-mcp/badge)](https://www.mcpforge.tech/verified/slack-mcp)
+[![Verified by MCPForge](https://www.mcpforge.tech/api/servers/slack-mcp-server/badge)](https://www.mcpforge.tech/verified/slack-mcp-server)
 ```
 
-Full MCPForge guide:
+Read the complete guide on MCPForge:
 
-```text
 https://www.mcpforge.tech/blog/slack-mcp-server
-```
 
 ## Deployment
 
@@ -300,17 +323,36 @@ npm run build
 | `GET` | `/auth/status` | Installed workspace status. |
 | `POST` | `/mcp` | MCP endpoint protected by `Authorization: Bearer <MCP_API_KEY>`. |
 
-## Repository checklist
+## Contributing
 
-Before publishing your fork:
+Contributions are welcome.
 
-- [ ] Replace `kamolc4` in the CI badge URL if the repository owner changes.
-- [ ] Replace the MCPForge badge slug if your public slug is not `slack-mcp`.
-- [ ] Replace the blog link with your final MCPForge article URL.
-- [ ] Add screenshots or a real verification report once available.
-- [ ] Configure production token storage.
-- [ ] Review Slack scopes.
+To improve this Slack MCP Server template, please open an issue or submit a pull request.
+
+## Releases
+
+Latest stable release:
+
+v1.0.0
+
+See the Releases page for the full changelog.
 
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## Related MCP Server Templates
+
+Looking for other production-ready MCP Server templates?
+
+- GitHub MCP Server
+- Slack MCP Server
+- Stripe MCP Server
+- Notion MCP Server
+- Shopify MCP Server
+- HubSpot MCP Server
+- PostgreSQL MCP Server
+
+Browse the complete collection:
+
+https://www.mcpforge.tech/code
