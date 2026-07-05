@@ -1,7 +1,7 @@
 # Slack MCP Server
 
 [![CI](https://github.com/kamolc4/slack-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/kamolc4/slack-mcp-server/actions/workflows/ci.yml)
-[![Verified by MCPForge](https://www.mcpforge.tech/api/servers/slack-mcp-server/badge)](https://www.mcpforge.tech/verified/slack-mcp-server)
+[![Verified by MCPForge](https://www.mcpforge.tech/api/badge/verified/slack-mcp-server)](https://www.mcpforge.tech/verified/slack-mcp-server)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A production-ready Model Context Protocol server for the Slack API.
